@@ -4,13 +4,16 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "start": "npm server.js",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "connect-history-api-fallback": "^1.6.0",
     "core-js": "^3.6.5",
+    "express": "^4.17.1",
     "vue": "^2.6.11",
     "vue-axios": "^2.1.5",
     "vue-router": "^3.2.0",
