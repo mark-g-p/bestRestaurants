@@ -40,5 +40,8 @@
   },
   "resolutions": {
     "serialize-javascript": "4.0.0"
+  },
+  "engine": {
+    "node": "10.19.0"
   }
 }
